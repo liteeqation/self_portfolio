@@ -1,6 +1,6 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/stock.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import aiStartupLandingPage from "@/assets/images/portfolio.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
