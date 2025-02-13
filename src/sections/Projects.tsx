@@ -34,15 +34,15 @@ const portfolioProjects = [
     image: lightSaasLandingPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Portfolio_page",
+    year: "2025",
+    title: "Portfolio Landing Page",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Developer Portfolio Website" },
+      { title: "Interactive Portfolio Showcase" },
+      { title: "Modern Portfolio & Resume Site" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://67ae0a8d5e86cc6c3ea8169c--shouryacodes.netlify.app/",
     image: aiStartupLandingPage,
   },
 ];
