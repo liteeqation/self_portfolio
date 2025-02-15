@@ -24,6 +24,7 @@ export const HeroSection = () => {
         <div className="size-[1220px] hero-ring"></div>
         <div className="size-[1420px] hero-ring"></div>
         <div className="size-[1620px] hero-ring"></div>
+        <div className="size-[1820px] hero-ring"></div>
         <HeroOrbit
           size={800}
           rotation={-72}
@@ -37,6 +38,36 @@ export const HeroSection = () => {
         <HeroOrbit
           size={900}
           rotation={-100}
+          shouldOrbit
+          orbitDuration="48s"
+          shouldspin
+          spinDuration="6s"
+        >
+          <StarIcon className="size-20 text-emerald-300 border-red-500" />
+        </HeroOrbit>
+        <HeroOrbit
+          size={1000}
+          rotation={-300}
+          shouldOrbit
+          orbitDuration="48s"
+          shouldspin
+          spinDuration="6s"
+        >
+          <StarIcon className="size-20 text-emerald-300 border-red-500" />
+        </HeroOrbit>
+        <HeroOrbit
+          size={1200}
+          rotation={-200}
+          shouldOrbit
+          orbitDuration="48s"
+          shouldspin
+          spinDuration="6s"
+        >
+          <StarIcon className="size-20 text-emerald-300 border-red-500" />
+        </HeroOrbit>
+        <HeroOrbit
+          size={1400}
+          rotation={-220}
           shouldOrbit
           orbitDuration="48s"
           shouldspin
@@ -205,12 +236,12 @@ export const HeroSection = () => {
           <div className="relative size-5 bg-green-200 rounded-full"></div>
         </HeroOrbit>
       </div>
-      <div className="container w-[30%]">
+      <div className="container lg: w-[20] md:w-1/2 py-25 ">
         <div className="flex flex-col items-center">
           {/* Image Section */}
           <Image
             src={shourya_photograph}
-            className="w-[50%] z-20 relative "
+            className="w-[30%] z-20 relative "
             alt="Person peeking from behind a laptop"
           />
           {/* Introduction Section */}
@@ -224,11 +255,11 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-lg mx-auto">
+        <div className="position:absolute w-dull md:max-w-lg mx-auto sm:px-4 md:px-4 lg:px-8">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
             Turning Ideas Into Impactful Digital Solutions
           </h1>
-          <p className="mt-4 text-center text-white/60 text-2xl md:text-lg">
+          <p className="mt-4 text-center text-white/60 text-base sm:text-sm md:text-lg sm:max-w-[280px] md:max-w-lg">
             CS grad proficient in building full-stack applications, crafting
             responsive websites, designing intuitive front-end interfaces, and
             developing secure blockchain solutions for exceptional user

@@ -10,8 +10,8 @@ import HTMLIcon from "@/assets/icons/html5.svg";
 import CSSIcon from "@/assets/icons/css3.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import ReactIcon from "@/assets/icons/react.svg";
-import vanilla from "@/assets/icons/vanilla.png";
-import { TechIcon } from "@/components/TechIcon";
+import panda from "@/assets/icons/pandas.svg";
+import tensor from "@/assets/icons/tensor.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
@@ -22,6 +22,7 @@ import pythonIcon from "@/assets/icons/python.svg";
 import vueIcon from "@/assets/icons/vue.svg";
 import mongoIcon from "@/assets/icons/mongo.svg";
 import { motion } from "framer-motion";
+import { title } from "process";
 
 const toolboxItems = [
   {
@@ -63,6 +64,14 @@ const toolboxItems = [
   {
     title: "MongoDB",
     iconType: mongoIcon,
+  },
+  {
+    title: "Tensorflow",
+    iconType: tensor,
+  },
+  {
+    title: "Pandas",
+    iconType: panda,
   },
 ];
 
