@@ -7,8 +7,21 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/cards";
+import awwardswebsite from "@/assets/images/awwardswebsite.png";
 
 const portfolioProjects = [
+  {
+    company: "LitRiot",
+    year: "2025",
+    title: "Arcane x League of Legends x Valorant Showcase",
+    results: [
+      { title: "Immersive Game Universe Experience" },
+      { title: "High-End Animations with GSAP" },
+      { title: "Comprehensive Media Gallery" },
+    ],
+    link: "https://litriot.netlify.app/",
+    image: awwardswebsite,
+  },
   {
     company: "PortfolioPulse",
     year: "2024",
@@ -30,7 +43,7 @@ const portfolioProjects = [
       { title: "Interactive Portfolio Showcase" },
       { title: "Modern Portfolio & Resume Site" },
     ],
-    link: "https://67ae0a8d5e86cc6c3ea8169c--shouryacodes.netlify.app/",
+    link: "https://shouryacodes.netlify.app/",
     image: aiStartupLandingPage,
   },
 ];
