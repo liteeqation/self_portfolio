@@ -104,7 +104,7 @@ export const AboutSection = () => {
               ></CardHeader>
               <div className=" lg:w-70 -translate-y-6 mx-auto overflow-hidden md:w-50">
                 <Link
-                  href="https://drive.google.com/file/d/1Kz4bVGD4XWxrZAuucQXWFvKzxTdCTfSi/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1PeGUXDDBld4YCX-60RX6L6R9RUikGDF8/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
